@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/Pong.dir/src/main.c.o -o Pong  -Wl,-rpath,/usr/local/lib /usr/local/lib/libraylib.so 

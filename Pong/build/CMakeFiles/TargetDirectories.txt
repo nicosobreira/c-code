@@ -1,0 +1,5 @@
+/home/acerola/Code/C/Pong/build/CMakeFiles/edit_cache.dir
+/home/acerola/Code/C/Pong/build/CMakeFiles/rebuild_cache.dir
+/home/acerola/Code/C/Pong/build/Pong/CMakeFiles/Pong.dir
+/home/acerola/Code/C/Pong/build/Pong/CMakeFiles/edit_cache.dir
+/home/acerola/Code/C/Pong/build/Pong/CMakeFiles/rebuild_cache.dir
