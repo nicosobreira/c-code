@@ -1,20 +1,4 @@
-#include <stdio.h>
-
-void header(char *text) {
-	printf("\n\n\t\t%s\n\n", text);
-}
-
-/* Definition
- * A poiter is a variable that stores the memory addrees of another function
- * Give direct access to the memory
-*/
-/* Types
- * Null - Points to nothing
- * Void - Point to any data type (must be type-casted)
- * Array - Points to the first element of an array
- * Function
- * Structure
-*/
+#include "utils.h"
 
 void func() {
 	header("func");
@@ -40,9 +24,9 @@ void func_param_point() {
 		*b = temp;
 	}
 	int x = 10, y = 20;
-	printf("\t\tx and y: %d %d", x, y);
+	printf("\tx and y: %d %d\n", x, y);
 	swap(&x, &y);
-	printf("\n(Swap)\tx and y: %d %d", x, y);
+	printf("(Swap)\tx and y: %d %d", x, y);
 }
 
 void func_param_return() {
