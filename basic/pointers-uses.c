@@ -26,7 +26,7 @@ void func_param_point() {
 	int x = 10, y = 20;
 	printf("\tx and y: %d %d\n", x, y);
 	swap(&x, &y);
-	printf("(Swap)\tx and y: %d %d", x, y);
+	printf("(swap)\tx and y: %d %d", x, y);
 }
 
 void func_param_return() {
@@ -37,7 +37,7 @@ void func_param_return() {
 		return (*a > *b) ? a : b;
 	}
 	int x = 5, y = 10;
-	int *max_value = max(&x, &y);
+	int* max_value = max(&x, &y);
 	printf("max_value = %d", *max_value);
 }
 
